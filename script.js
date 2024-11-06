@@ -52,3 +52,18 @@ circles.forEach(circle => {
     let percent = circle.getAttribute('data-percent');
     circle.style.setProperty('--percent', percent);
 });
+
+
+document.querySelector('.bx-menu').addEventListener('click', function() {
+    document.getElementById('item').classList.toggle('active');
+  });
+  
+  // Add event listeners to all navbar links to close the menu once clicked
+  document.querySelectorAll('nav ul li a').forEach(function(link) {
+    link.addEventListener('click', function() {
+      document.getElementById('item').classList.remove('active');
+    });
+  });
+  
+
+
