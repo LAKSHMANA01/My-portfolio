@@ -95,7 +95,7 @@ nav ul li a {
   text-decoration: none;
   
 }
-<<<<<<< HEAD
+
 
 
 /* Reset */
@@ -200,8 +200,7 @@ nav ul li a {
     margin: 0 10px;
   }
 }
-=======
->>>>>>> 4f81003cdd823e2ed8abe295e3903ef38da4026d
+
 
 
 
@@ -747,8 +746,9 @@ margin-bottom: 30px;
   
 }
 .contact-form {
-  max-width: 250px;
-  width: 100%;
+  max-width: 600px;
+  width: 250px;
+  
   
 }
 
